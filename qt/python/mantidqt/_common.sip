@@ -418,6 +418,18 @@ public:
 };
 
 // ---------------------------------
+// Instrument Selector
+// ---------------------------------
+
+class InstrumentSelector : QWidget {
+%TypeHeaderCode
+#include "MantidQtWidgets/Common/InstrumentSelector.h"
+%End
+public:
+  InstrumentSelector(QWidget *parent /TransferThis/ = nullptr);
+};
+
+// ---------------------------------
 // Fit Property Browser
 // ---------------------------------
 class FitPropertyBrowser : public QDockWidget {
