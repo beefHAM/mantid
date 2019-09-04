@@ -25,4 +25,4 @@ set_property(TARGET CompileUIReflectometer PROPERTY FOLDER "CompilePyUI")
 set_property(TARGET CompileUIDataProcessorInterface
              PROPERTY FOLDER "CompilePyUI")
 set_property(TARGET CompileUIPoldi PROPERTY FOLDER "CompilePyUI")
-set_property(TARGET CompileUIDrill PROPERTY FOLDER "drill")
+set_property(TARGET CompileUIDrill PROPERTY FOLDER "CompilePyUI")
