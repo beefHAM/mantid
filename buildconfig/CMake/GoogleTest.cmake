@@ -3,7 +3,7 @@
 # GMOCK_FOUND If false, do not try to use Google Mock
 
 # Make gtest_version available everywhere
-set (gtest_version "1.8.0" CACHE INTERNAL "")
+set (gtest_version "1.10.0" CACHE INTERNAL "")
 
 option(USE_SYSTEM_GTEST "Use the system installed GTest - v${gtest_version}?" OFF)
 
